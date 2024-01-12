@@ -1,0 +1,137 @@
+/* TITLEMENU */
+
+.myMenuCont {
+  position: relative;
+  color: white;
+  text-align: center;
+  flex-flow: row nowrap;
+  padding: 208px 0px; 
+  background: rgba(64, 64, 68, 0.6); 
+  height: 750px;
+  z-index: 100;
+}
+.menu-container{
+  max-width: 1140px;
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width:1024px) {
+  .menu-container{
+    bottom: -470px;
+  }
+}
+.myMenuCont .section1{
+  padding-top: 72px;
+}
+
+/* sectionMENU */
+
+.sectionMenu{
+  padding: 100px 0px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+.ourMenu {
+  color: #8b8b92;
+  text-align: center;
+  font-size: 16px;
+}
+.discoverMenu {
+  padding: 10px 0px 80px 0px;
+  font-size: 34px;
+  color: #404044;
+  font-weight: 600;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  
+}
+@media (max-width:768px) {
+.content {
+  flex-wrap: wrap; 
+  }
+}
+.sectBut{
+  display: flex;
+  color: #a5a5ab;
+  width: 135px;
+  height: 60px;
+  margin: 0px 5px;
+  padding: 20px 10px;
+  color: #404044;
+  box-shadow: 0px 4px 18px -12px rgba(0, 0, 0, 0.75);
+  border: none;
+  background: white;
+}
+.sectBut:hover{
+  background: #ffb400;
+}
+.sectionMenu-menu {
+  text-decoration: none;
+  padding-left: 10px;
+}
+.section-list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.sectionMenu-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:20px;
+}
+.block{    
+  max-width: 455px;
+  width: 100%;
+  font-size: 22px;
+  background: #fff;
+  display: flex;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0px 1px 18px -12px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease;
+}
+.sectionMenu-img{
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.sectionMenu-cont{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 20px;
+  text-align: left;
+}
+.sectionMenu-title{
+  line-height: 1.5;
+  color: #404044;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 0px;
+}
+.sectionMenu-text{
+  font-size: 18px;
+  margin: -60px 0px 0px 0px;
+  padding-top: 5px;
+}
+.sectionMenu-price{
+  font-size: 35px;
+}
+@media (max-width:890px) {
+  .sectionMenu-block{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sectionMenu-cont{
+    gap: 15px;
+  }
+}

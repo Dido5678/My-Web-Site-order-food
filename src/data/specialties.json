@@ -1,0 +1,74 @@
+[
+    {
+        "id":"1",
+        "title":"Beef Steak",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "price":"FROM $10.00",
+        "image":"../images/dish-3.jpg"  
+    },
+    {
+        "id":"2",
+        "title":"Beef Ribs Steak",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "price":"FROM $10.00",
+        "image":"../images/dish-4.jpg"  
+    },
+    {
+        "id":"3",
+        "title":"Chopsuey",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "price":"FROM $10.00",
+        "image":"../images/dish-5.jpg"  
+    },
+    {
+        "id":"4",
+        "title":"Roasted Chieken",
+        "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        "price":"FROM $10.00",
+        "image":"../images/dish-6.jpg"  
+    },
+     {
+         "id":"5",
+         "title":"Beef Steak",
+         "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+         "price":"FROM $10.00",
+         "image":"../images/dish-7.jpg"  
+     },
+     {
+         "id":"6",
+         "title":"Beef Ribs Steak",
+         "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+         "price":"FROM $10.00",
+         "image":"../images/dish-8.jpg"  
+     },
+     {
+         "id":"7",
+         "title":"Chopsuey",
+         "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+         "price":"FROM $10.00",
+         "image":"../images/dish-9.jpg"  
+     },
+     {
+         "id":"8",
+         "title":"Roasted Chieken",
+         "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+         "price":"FROM $10.00",
+         "image":"../images/dish-10.jpg"  
+     },
+     {
+         "id":"9",
+         "title":"Beef Steak",
+         "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+         "price":"FROM $10.00",
+         "image":"../images/dish-11.jpg"  
+     },
+     {
+         "id":"10",
+         "title":"Beef Steak",
+         "text":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+         "price":"FROM $10.00",
+         "image":"../images/dish-3.jpg"  
+     }
+
+]
+    

@@ -1,0 +1,65 @@
+/* Specialties.css */
+
+.special{
+   background: #fafafa;
+   padding-bottom: 100px;
+}
+.specialties {
+   text-align: center;
+}
+.special-title {
+   color: #404044;
+   font-size: 34px;
+   font-weight: 600;
+   text-align: center;
+   padding: 100px 0px;
+}
+.special-cont{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   background-color: white;
+   padding: 0;
+}
+.special-item{
+   border: 1px solid rgb(241, 239, 239);
+   display: flex;
+   flex-wrap: wrap;
+   flex: 0 1 50%;
+   gap: 30px;
+}
+.special-block{
+   padding-left:53px;
+}
+.special-subtitle{
+   font-size: 20px;
+   padding-top: 30px;
+}
+.special-text{
+   width: 150px;
+}
+.special-price{
+   color: #ffb400;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.special-img{
+   width: 280px;
+   height: 250px;
+   object-fit: cover;
+}
+
+@media (max-width:768px) {
+   .special-item{
+      flex: 0 0;
+      text-align: center;
+      margin: auto;
+   }
+}
+@media (max-width:1200px) {
+   .special-item{
+      flex: 0 0;
+      text-align: center;
+      margin: auto;
+   }
+}
