@@ -307,6 +307,7 @@ div.form-floating > .form-control {
   flex-wrap: wrap;
 }
 [class^="inst-item"] {
+  overflow: hidden;
   flex-basis: 0;
   flex-grow: 1;
   width: 100%;
@@ -347,6 +348,7 @@ div.form-floating > .form-control {
   height: 280px;
 }
 .blockInsta:hover {
+  overflow: hidden;
   position: absolute;
   top: 25px;
   left: 35px;
@@ -357,6 +359,36 @@ div.form-floating > .form-control {
   cursor: zoom-in;
   overflow: hidden;
   transition: all 0.3s ease;
+}
+@media(max-width:1660px){
+  .blockInsta:hover {
+    left: 25px;
+    width: 230px;
+  }
+}
+@media(max-width:1440px){
+  .blockInsta:hover {
+    left: 23px;
+    width: 210px;
+  }
+}
+@media(max-width:1200px){
+  .blockInsta:hover {
+    left: 20px;
+    width: 160px;
+  }
+}
+@media(max-width:991.98px){
+  .blockInsta:hover {
+    left: 17px;
+    width: 150px;
+  }
+}
+@media(max-width:768px){
+  .blockInsta:hover {
+    left: 17px;
+    width: 100%;
+  }
 }
 .blockInsta .fa-inst{
   position: absolute;
@@ -375,6 +407,7 @@ div.form-floating > .form-control {
 
 @media (max-width:768px) {
     .inst-list {
+      display: block;
       flex-wrap: wrap;
       flex-direction: column;
       margin: auto;
