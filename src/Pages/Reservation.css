@@ -1,0 +1,111 @@
+.make-reserv{
+    padding: 100px 0px 20px 0px;
+    text-align: center;
+    background: white;
+}
+.reserv-title{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #404044;
+    padding-bottom: 100px;
+}
+.reserv-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.reserv-block{
+    max-width: 1140px;
+}
+.reserv-image img{
+    max-width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+.reserv-form{
+    background: #fafafa;
+    max-width: 710px;
+    height: 500px;
+    padding: 48px;
+}
+.reserv-list{
+   display: flex;
+   justify-content: space-between; 
+   gap: 30px;
+}
+.reserv-item{
+    display: flex;
+    flex-direction: column;
+}
+.reserv-item label{
+    text-align: left;
+    font-weight: 600;
+    color: #404044;
+    margin-top: 15px;
+}
+.reserv-item input{
+   padding: 10px 20px 10px 10px;
+   border: 1px solid #ced4da;
+}
+.reserv-time,
+.reserv-person{
+    padding: 15px 205px 15px 10px;
+    border: 1px solid #ced4da;
+}
+.reserv-button{
+    border: 2px solid #ffb400;
+    background: #ffb400;
+    color: white;
+    padding: 16px 48px;
+    margin-top: 20px;
+}
+.reserv-button:hover{
+    border: 2px solid #ffb400;
+    background: transparent;
+    color: #ffb400;
+    padding: 16px 48px;
+}
+
+@media (max-width:1024px) {
+    .reserv-block{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reserv-form{
+        /* display: flex;
+        flex-wrap: wrap;
+        align-items: center; */
+        background: #fafafa;
+        height: 100%;
+    }
+    .reserv-image img{
+        max-width: 293px;
+        height: 100%;
+
+    }
+    .reserv-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reserv-item{
+        flex-wrap: wrap;
+    }
+    .reserv-item input{
+        padding: 5px 10px 5px 5px;
+     }
+    .make-reserv{
+        padding-bottom: 0px;
+    }
+    .reserv-time,
+    .reserv-person{
+    padding: 5px 0px 5px 0px;
+    border: 1px solid #ced4da;
+}
+.reserv-button{
+    padding: 15px;
+}
+}
