@@ -10,7 +10,7 @@ Welcome to my React.js project for ordering food! This project includes seven pa
 - **About**: Information about the restaurant.
 - **Contact**: Contact form for reaching out to the restaurant.
 
-![tasty foto](tasty.png)
+![tasty foto](tatsy.png)
 
 ## Technologies Used
 
